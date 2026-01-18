@@ -1,0 +1,25 @@
+name: technobolt_mobile
+description: A elite da Inteligencia Artificial aplicada ao corpo.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.1
+  flutter_markdown: ^0.6.14
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
